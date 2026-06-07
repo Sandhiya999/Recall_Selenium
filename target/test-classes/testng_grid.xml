@@ -1,0 +1,20 @@
+<suite name ="grid run" parallel = "tests" thread-count="3">
+    <test name = "Chome Test in Grid">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="seleniumGrid"/>
+        </classes>
+    </test>
+    <test name="firefox Test in Grid">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name = "seleniumGrid"/>
+        </classes>
+    </test>
+    <test name = "Edge Test in Grid">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="seleniumGrid"/>
+        </classes>
+    </test>
+</suite>

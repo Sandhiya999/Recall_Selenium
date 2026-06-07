@@ -1,3 +1,18 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+
+# Java
+*.class
+*.jar
+*.war
+
+# OS
+.DS_Store
+Thumbs.db

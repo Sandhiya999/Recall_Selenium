@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Jenkins Suite">
+
+    <test name="Login Test">
+        <classes>
+            <class name="login"/>
+        </classes>
+    </test>
+
+</suite>
